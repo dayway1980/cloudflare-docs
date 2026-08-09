@@ -57,7 +57,7 @@ jobs:
       # ALTERNATIVE: exactly, uncomment the following line instead:
       # url: https://pypi.org/project/YOURPROJECT/${{ github.event.release.name }}
 
-     steps:
+    steps:
       - name: Retrieve release distributions
         uses: actions/download-artifact@v4
         with:
