@@ -66,18 +66,4 @@ jobs:
 
       - name: Publish release distributions to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
-        with:
-          packages-dir: dist/
-
-backend/
-  __init__.py
-  server.py
-  auth_router.py
-
-Dockerfile
-railway.json
-requirements.txt
-.gitignore
-.env.example
-README_RECOVERY.md
-WrenchRelay_Landing_Page.html
+        
